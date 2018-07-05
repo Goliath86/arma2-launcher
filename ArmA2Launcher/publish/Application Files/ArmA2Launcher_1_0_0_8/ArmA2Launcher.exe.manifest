@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="ArmA2Launcher.exe" version="1.0.0.8" publicKeyToken="e3552e3c498c5110" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="ArmA2OA_APPICON+9.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="ArmA2Launcher" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="ArmA2Launcher.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opzioni manifesto Controllo account utente
+          Se si desidera modificare il livello di Controllo account utente di Windows, sostituire il 
+          nodo requestedExecutionLevel con uno dei seguenti.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Se si desidera utilizzare Virtualizzazione file system e registro di sistema per la 
+         compatibilità con le versioni precedenti, eliminare il nodo requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ArmA2Launcher.exe" size="1300480">
+      <assemblyIdentity name="ArmA2Launcher" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>Wi8exwhjYhvfJEtR7VOlQd800Kc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Ionic.BZip2.dll" size="57344">
+      <assemblyIdentity name="Ionic.BZip2" version="1.9.1.8" publicKeyToken="EDBE51AD942A3F5C" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>FWDrNsQItBdNih7lhsbzf2M07x0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="QueryMaster.dll" size="69632">
+      <assemblyIdentity name="QueryMaster" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>KLDsx/mHXz9/ICnK3a2C0fi8EB8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="ArmA2Launcher.exe.config" size="5110">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>ms4iAb3Qm3GDtsA9BbPn7ryHXeE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="ArmA2OA_APPICON+9.ico" size="285478">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>GM/TiFXeSyBlAsmgOkXP3D8qkx0=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=Goliath-PC\Goliath" issuerKeyHash="679d1386b3dd0080a428a788a42ba94d2fbfa53f" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>45eBI55Z9ZXsyR8dPKvNc/2jjNY=</DigestValue></Reference></SignedInfo><SignatureValue>DDWXssB7BoM7RzL91JbssD4IeGefUA7/u5Q4l+jXz492Nl0/H3d0/2EpU0GsnFRmalABfv7TJIpaDlQD1fXHb2Zs9lUZBlWvZuu2xfTLLpdXTyQQbdrJaP030EM+ENypNuRV1rHXJkNOA7xwgBZ4DC1dvWFTROnG85xJPBLdOFc=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>oSiU+gAY9uZQ66GKcrZNrW63vOGoJvQkXAqtonvwsEK6zejcpB64YGQxJKn2kBMHpGubERUHUD8kLPbNQWdyMJ+8ZWxgYzehy2frnY0uLFUgPYPuk99u/olEEpxP2voZt6+EGnNHlV+ylWIPmWmyeICOvffbBf9ADb/8fI76so8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="d68ca3fd73cdab3c1d1fc9ec95f5599e238197e3" Description="" Url=""><as:assemblyIdentity name="ArmA2Launcher.exe" version="1.0.0.8" publicKeyToken="e3552e3c498c5110" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=Goliath-PC\Goliath</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>kCE5F1Kn3xFah/HXrQlbMYx4t/w=</DigestValue></Reference></SignedInfo><SignatureValue>boTsZc/jBpsr54JTiEvTE4PNVR48fMgtNzRIG5Sb6Dfdf76lD2bxyh4JUmnJaawHJZwkCz19yN9a7zCO85miRJqX9d2duxzL86i+XzNDfoupKntqA7/ugRo7akC3f3y9IWDor7oxM8FD/Kiverv9/iZLdoxG3VXAE0Gya3yRtBA=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>oSiU+gAY9uZQ66GKcrZNrW63vOGoJvQkXAqtonvwsEK6zejcpB64YGQxJKn2kBMHpGubERUHUD8kLPbNQWdyMJ+8ZWxgYzehy2frnY0uLFUgPYPuk99u/olEEpxP2voZt6+EGnNHlV+ylWIPmWmyeICOvffbBf9ADb/8fI76so8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB4TCCAUqgAwIBAgIQdWu8DtFUnItNSEW1F87TyzANBgkqhkiG9w0BAQUFADAvMS0wKwYDVQQDHiQARwBvAGwAaQBhAHQAaAAtAFAAQwBcAEcAbwBsAGkAYQB0AGgwHhcNMTQwOTEyMTI1MjMyWhcNMTUwOTEyMTg1MjMyWjAvMS0wKwYDVQQDHiQARwBvAGwAaQBhAHQAaAAtAFAAQwBcAEcAbwBsAGkAYQB0AGgwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAKEolPoAGPbmUOuhinK2Ta1ut7zhqCb0JFwKraJ78LBCus3o3KQeuGBkMSSp9pATB6RrmxEVB1A/JCz2zUFncjCfvGVsYGM3octn652NLixVID2D7pPfbv6JRBKcT9r6GbevhBpzR5VfspViD5lpsniAjr332wX/QA2//HyO+rKPAgMBAAEwDQYJKoZIhvcNAQEFBQADgYEAEtJbt+YKpVNZnAipLi9dnwsMBBcJRyXitEnskPEqhsxWEizuwy5zkgUlklnknvY9lcU8bLAFJGaOqFmzkRwdMnIpd+km+9p4rEivqCi2XGGKUECaeAA3v2r+c0EnsqokZNL4XSk//4HTNnJwktvRpnF81cFwoP/Zq3B7YwfYzqk=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

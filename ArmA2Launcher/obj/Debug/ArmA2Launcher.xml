@@ -1,0 +1,56 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ArmA2Launcher
+</name>
+</assembly>
+<members>
+<member name="P:ArmA2Launcher.My.Resources.Resources.ResourceManager">
+	<summary>
+  Restituisce l'istanza di ResourceManager nella cache utilizzata da questa classe.
+</summary>
+</member><member name="P:ArmA2Launcher.My.Resources.Resources.Culture">
+	<summary>
+  Esegue l'override della proprietà CurrentUICulture del thread corrente per tutte le
+  ricerche di risorse eseguite utilizzando questa classe di risorse fortemente tipizzata.
+</summary>
+</member><member name="P:ArmA2Launcher.My.Resources.Resources.Blank">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ArmA2Launcher.My.Resources.Resources.Blinking_Yellow_Dot_2">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ArmA2Launcher.My.Resources.Resources.Button_Blank_Green_icon">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ArmA2Launcher.My.Resources.Resources.Favorites">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ArmA2Launcher.My.Resources.Resources.Favorites_Grey">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ArmA2Launcher.My.Resources.Resources.key_icon">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ArmA2Launcher.My.Resources.Resources.linux_icon">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ArmA2Launcher.My.Resources.Resources.Windows_icon">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="T:ArmA2Launcher.My.Resources.Resources">
+	<summary>
+  Classe di risorse fortemente tipizzata per la ricerca di stringhe localizzate e così via.
+</summary>
+</member>
+</members>
+</doc>
